@@ -21,7 +21,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/masuk', [LoginController::class, 'masuk'])->name('masuk')->middleware('guest');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('index');
 Route::get('/pegawai', [PegawaiController::class, 'index'])->name('index');
