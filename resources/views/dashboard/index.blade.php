@@ -207,4 +207,3 @@
       <script src="{{asset('sb-admin/js/demo/chart-pie-demo.js')}}"></script>
     </body>
 </html>
->>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
