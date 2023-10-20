@@ -26,7 +26,7 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ route('login') }}">Login</a>
+                    <a class="nav-link text-white" href="/login">Login</a>
                 </li>
             </ul>
           </div>
