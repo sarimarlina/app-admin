@@ -46,7 +46,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Sistim Informasi ISSP</h1>
                                     </div>
-                                    <form class="user" action="{{ route('masuk') }}" method="post" >
+                                    <form class="user" action="/masuk" method="post" >
                                     @csrf
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
