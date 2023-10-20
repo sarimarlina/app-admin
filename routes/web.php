@@ -18,9 +18,10 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('home');
 });
 
-Route::post('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/login', [LoginController::class, 'index']);
+Route::post('/login', [LoginController::class, 'login'])->name('login')->middleware('guest');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('index');
 Route::get('/pegawai', [PegawaiController::class, 'index'])->name('index');
