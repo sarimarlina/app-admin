@@ -10,7 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+<<<<<<< HEAD
     <title>SB Admin 2 - Dashboard</title>
+=======
+    <title>Admin Dashboard</title>
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
 
     <!-- Custom fonts for this template-->
     <link href="{{asset('sb-admin/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -52,11 +56,14 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
+<<<<<<< HEAD
             <!-- Heading -->
             <!-- <div class="sidebar-heading">
                 Master
             </div> -->
 
+=======
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
@@ -66,9 +73,15 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
+<<<<<<< HEAD
                         <a class="collapse-item" href="buttons.html">Tabel</a>
                         <a class="collapse-item" href="buttons.html">Unit Kerja</a>
                         <a class="collapse-item" href="cards.html">Pegawai</a>
+=======
+                        <a class="collapse-item" href="buttons.html">Transaksi</a>
+                        <a class="collapse-item" href="cards.html">Laporan</a>
+                        <a class="collapse-item" href="cards.html">utility</a>
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                     </div>
                 </div>
             </li>
@@ -78,11 +91,16 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
+<<<<<<< HEAD
                     <span>Transaksi</span>
+=======
+                    <span>Konfigurasi</span>
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
+<<<<<<< HEAD
                         <a class="collapse-item" href="utilities-color.html">Data Kehadiran</a>
                         <a class="collapse-item" href="utilities-border.html">Tidak Hadir</a>
                     </div>   
@@ -118,18 +136,66 @@
                     </div>   
                 </div>
             </li>
+=======
+                        <a class="collapse-item" href="utilities-color.html">User</a>
+                        <a class="collapse-item" href="utilities-border.html">Borders</a>
+                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
+                        <a class="collapse-item" href="utilities-other.html">Other</a>
+                    </div>
+                </div>
+            </li>
+
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
             <!-- Divider -->
             <hr class="sidebar-divider">
 
             <!-- Heading -->
+<<<<<<< HEAD
 
            
+=======
+            <div class="sidebar-heading">
+                Addons
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Pages</span>
+                </a>
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Login Screens:</h6>
+                        <a class="collapse-item" href="login.html">Login</a>
+                        <a class="collapse-item" href="register.html">Register</a>
+                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+                        <div class="collapse-divider"></div>
+                        <h6 class="collapse-header">Other Pages:</h6>
+                        <a class="collapse-item" href="404.html">404 Page</a>
+                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="charts.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Charts</span></a>
+            </li>
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
+<<<<<<< HEAD
                     <span>Logout</span></a>
+=======
+                    <span>Tables</span></a>
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
             </li>
 
             <!-- Divider -->
@@ -139,6 +205,7 @@
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
+<<<<<<< HEAD
 
             
 
@@ -153,11 +220,30 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     
+=======
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
 
+<<<<<<< HEAD
                    
+=======
+                    <!-- Topbar Search -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                     <form
                         class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
@@ -171,16 +257,27 @@
                         </div>
                     </form>
 
+<<<<<<< HEAD
                     
                     <ul class="navbar-nav ml-auto">
 
                        
+=======
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                         <li class="nav-item dropdown no-arrow d-sm-none">
                             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-search fa-fw"></i>
                             </a>
+<<<<<<< HEAD
                            
+=======
+                            <!-- Dropdown - Messages -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                             <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
                                 aria-labelledby="searchDropdown">
                                 <form class="form-inline mr-auto w-100 navbar-search">
@@ -198,15 +295,26 @@
                             </div>
                         </li>
 
+<<<<<<< HEAD
                         
+=======
+                        <!-- Nav Item - Alerts -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                         <li class="nav-item dropdown no-arrow mx-1">
                             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-bell fa-fw"></i>
+<<<<<<< HEAD
                                
                                 <span class="badge badge-danger badge-counter">3+</span>
                             </a>
                           
+=======
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="alertsDropdown">
                                 <h6 class="dropdown-header">
@@ -249,15 +357,26 @@
                             </div>
                         </li>
 
+<<<<<<< HEAD
                         
+=======
+                        <!-- Nav Item - Messages -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                         <li class="nav-item dropdown no-arrow mx-1">
                             <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-envelope fa-fw"></i>
+<<<<<<< HEAD
                                 
                                 <span class="badge badge-danger badge-counter">7</span>
                             </a>
                             
+=======
+                                <!-- Counter - Messages -->
+                                <span class="badge badge-danger badge-counter">7</span>
+                            </a>
+                            <!-- Dropdown - Messages -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="messagesDropdown">
                                 <h6 class="dropdown-header">
@@ -317,7 +436,11 @@
 
                         <div class="topbar-divider d-none d-sm-block"></div>
 
+<<<<<<< HEAD
                         
+=======
+                        <!-- Nav Item - User Information -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -325,7 +448,11 @@
                                 <img class="img-profile rounded-circle"
                                     src="{{asset('sb-admin/img/undraw_profile.svg')}}">
                             </a>
+<<<<<<< HEAD
                            
+=======
+                            <!-- Dropdown - User Information -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
@@ -351,6 +478,7 @@
                     </ul>
 
                 </nav>
+<<<<<<< HEAD
                
                 <div class="container-fluid">
 
@@ -365,6 +493,14 @@
                     <div class="row">
 
                         
+=======
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Earnings (Monthly) Card Example -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
@@ -382,7 +518,11 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
                         
+=======
+                        <!-- Earnings (Monthly) Card Example -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
@@ -400,7 +540,11 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
                         
+=======
+                        <!-- Earnings (Monthly) Card Example -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-info shadow h-100 py-2">
                                 <div class="card-body">
@@ -429,7 +573,11 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
                         
+=======
+                        <!-- Pending Requests Card Example -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-warning shadow h-100 py-2">
                                 <div class="card-body">
@@ -448,6 +596,7 @@
                         </div>
                     </div>
 
+<<<<<<< HEAD
                     
 
                     <div class="row">
@@ -458,6 +607,17 @@
                                
                                 <div
                                     class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+=======
+                    <!-- Content Row -->
+
+                    <div class="row">
+
+                        <!-- Area Chart -->
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                                     <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
                                     <div class="dropdown no-arrow">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
@@ -474,7 +634,11 @@
                                         </div>
                                     </div>
                                 </div>
+<<<<<<< HEAD
                                 
+=======
+                                <!-- Card Body -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                                 <div class="card-body">
                                     <div class="chart-area">
                                         <canvas id="myAreaChart"></canvas>
@@ -483,10 +647,17 @@
                             </div>
                         </div>
 
+<<<<<<< HEAD
                        
                         <div class="col-xl-4 col-lg-5">
                             <div class="card shadow mb-4">
                                 
+=======
+                        <!-- Pie Chart -->
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                                 <div
                                     class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
@@ -505,7 +676,11 @@
                                         </div>
                                     </div>
                                 </div>
+<<<<<<< HEAD
                                 
+=======
+                                <!-- Card Body -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
                                 <div class="card-body">
                                     <div class="chart-pie pt-4 pb-2">
                                         <canvas id="myPieChart"></canvas>
@@ -525,6 +700,7 @@
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
 
                    
                     <div class="row">
@@ -698,11 +874,39 @@
 
     </div>
     
+=======
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white mt-4">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website {{ date('Y');  }}</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
 
+<<<<<<< HEAD
     
+=======
+    <!-- Logout Modal-->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -722,6 +926,7 @@
         </div>
     </div>
 
+<<<<<<< HEAD
     
     <script src="{{asset('sb-admin/vendor/jquery/jquery.min.js')}}"></script>
     <script src="{{asset('sb-admin/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
@@ -736,6 +941,22 @@
     <script src="{{asset('sb-admin/vendor/chart.js/Chart.min.js')}}"></script>
 
     
+=======
+    <!-- Bootstrap core JavaScript-->
+    <script src="{{asset('sb-admin/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('sb-admin/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="{{asset('sb-admin/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="{{asset('sb-admin/js/sb-admin-2.min.js')}}"></script>
+
+    <!-- Page level plugins -->
+    <script src="{{asset('sb-admin/vendor/chart.js/Chart.min.js')}}"></script>
+
+    <!-- Page level custom scripts -->
+>>>>>>> 4b3b14d5f31f16a510c03ba5635181924ae08e9b
     <script src="{{asset('sb-admin/js/demo/chart-area-demo.js')}}"></script>
     <script src="{{asset('sb-admin/js/demo/chart-pie-demo.js')}}"></script>
 

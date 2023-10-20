@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Login</title>
+    <title>Halaman Login</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -37,11 +37,11 @@
                         <div class="row">
                             <!-- <div class="col-lg-6 d-none d-lg-block bg-login-image"></div> -->
                             <div class="col-lg">
-                            @if(session()->has('loginError'))
-                    <div class="alert alert-danger" role="alert">
-                        {{ session('loginError') }}
-                    </div>
-                    @endif
+                                @if(session()->has('loginError'))
+                                    <div class="alert alert-danger" role="alert">
+                                        {{ session('loginError') }}
+                                    </div>
+                                @endif
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Sistim Informasi ISSP</h1>
