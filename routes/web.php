@@ -21,6 +21,6 @@ Route::get('/', function () {
     return view('login');
 });
 
-Route::post('login', [LoginController::class, 'login'])->name('login');
-Route::get('dashboard', [DashboardController::class, 'index'])->name('index');
-Route::get('pegawai', [PegawaiController::class, 'index'])->name('index');
+Route::post('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('index');
+Route::get('/pegawai', [PegawaiController::class, 'index'])->name('index');
