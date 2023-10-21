@@ -21,16 +21,10 @@ Route::get('/', function () {
     return view('home');
 });
 
-<<<<<<< HEAD
+
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('login', [LoginController::class, 'login']);
 Route::post('logout', [LoginController::class, 'logout']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('index')->middleware('auth');
-=======
-
-Route::get('/login', [LoginController::class, 'index']);
-Route::post('/masuk', [LoginController::class, 'masuk']);
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('index');
->>>>>>> 960eca03baa8424d4f62df1131e81d5b03c45982
 Route::get('/pegawai', [PegawaiController::class, 'index'])->name('index');
