@@ -21,7 +21,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/login', [LoginController::class, 'index']);
-Route::post('/masuk', [LoginController::class, 'masuk']);
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('index');
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('login', [LoginController::class, 'login']);
+Route::post('logout', [LoginController::class, 'logout']);
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('index')->middleware('auth');
 Route::get('/pegawai', [PegawaiController::class, 'index'])->name('index');
