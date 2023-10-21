@@ -28,10 +28,9 @@
                   Master
                 </a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Tabel</a></li>
-                  <li><a class="dropdown-item" href="#">Unit Kerja</a></li>
-                  <li><a class="dropdown-item" href="#">Pegawai</a></li>
+                    <li><a class="dropdown-item" href="#">Unit Kerja</a></li>
+                    <li><a class="dropdown-item" href="#">Pegawai</a></li>
+                    <li><a class="dropdown-item" href="#">Tabel</a></li>
                 </ul>
               </li>
               <li class="nav-item">
