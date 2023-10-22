@@ -6,6 +6,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MasterPegawaiController;
 use App\Http\Controllers\MasterTabelController;
 use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\UserController;
 use App\Models\Gaji;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
@@ -44,3 +45,5 @@ Route::post('/storePegawai', [MasterPegawaiController::class, 'store']);
 Route::get('/laporangaji', [GajiController::class, 'index']);
 Route::get('/tambahGaji', [GajiController::class, 'create']);
 Route::post('/storeGaji', [GajiController::class, 'store']);
+
+Route::get('/profile', [UserController::class, 'index']);
