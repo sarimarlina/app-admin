@@ -32,11 +32,11 @@
           </div>
         </div>
       </nav>
-
+      
 
       <div class="container text-center py-4">
         <h3 style="margin-top: 20%" class="text-primary">SELAMAT DATANG DI SISTEM INFORMASI ISPP</h3>
-    </div>
+      </div>
     
     
     
