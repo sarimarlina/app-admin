@@ -9,7 +9,7 @@ class UserController extends Controller
     public function index()
     {
         return view('dashboard.user.index', [
-            'title' => 'Halaman Gaji',
+            'title' => 'Halaman Profile',
         ]);
     }
 }

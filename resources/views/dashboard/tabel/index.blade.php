@@ -7,7 +7,7 @@
         </div>
         <div class="col-lg-10">
             <div class="waktuKerja" id="waktuKerja">
-                <a href="/insertPegawai" class="btn btn-sm btn-primary mb-3">+ Tambah Data</a>
+                <a href="/tambahWaktuKerja" class="btn btn-sm btn-primary mb-3">+ Tambah Data</a>
                 @if(session('success'))
                     <div class="alert alert-success" role="alert">
                         {{ session('success') }}

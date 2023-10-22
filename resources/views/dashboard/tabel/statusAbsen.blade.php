@@ -8,7 +8,7 @@
         <div class="col-lg-10">
             <div class="waktuKerja" id="waktuKerja">
                 <table class="table">
-                    <thead class="bg-info text-white">
+                    <thead class="bg-primary text-white">
                       <tr>
                         <th scope="col">No</th>
                         <th scope="col">Nama</th>
