@@ -36,4 +36,10 @@ class MasterPegawaiController extends Controller
 
         return redirect('/masterPegawai')->with(['success' => 'Data Pegawai Berhasil Disimpan!']);
     }
+
+    public function destroy(Request $request)
+    {
+        Master_pegawai::destroy($request->id);
+        return redirect('/masterPegawai')->with('success', 'Data Pegawai Berhasil di Hapus');
+    }
 }

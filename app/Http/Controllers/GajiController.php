@@ -40,9 +40,9 @@ class GajiController extends Controller
             ]
         );
 
-        if ($request->golongan)
+        // if ($request->golongan)
 
-            Gaji::insert($validatedData);
+        Gaji::insert($validatedData);
 
         return redirect('/laporangaji')->with(['success' => 'Data Gaji Berhasil Disimpan!']);
     }

@@ -13,15 +13,15 @@
                                 <div class="col-lg-7">
                                     <div class="mb-3">
                                         <label for="nama" class="form-label">Nama</label>
-                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="masukan nama">
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="masukan nama" required>
                                     </div>
                                     <div class="mb-3">
                                         <label for="nip" class="form-label">NIP</label>
-                                        <input type="text" class="form-control" name="nip" id="nip" placeholder="masukan nip">
+                                        <input type="text" class="form-control" name="nip" id="nip" placeholder="masukan nip" required>
                                     </div>
                                     <div class="mb-3">
                                         <label for="jabatan" class="form-label">Jabatan</label>
-                                        <select class="form-select" aria-label="Default select example" name="jabatan">
+                                        <select class="form-select" aria-label="Default select example" name="jabatan" required>
                                             <option selected>-Pilih Jabatan-</option>
                                             <option value="Golongan 1">Golongan 1</option>
                                             <option value="Golongan 2">Golongan 2</option>
@@ -30,11 +30,11 @@
                                     </div>
                                     <div class="mb-3">
                                         <label for="tgl_mulai_tugas" class="form-label">Tanggal Mulai Tugas</label>
-                                        <input type="date" class="form-control" name="tgl_mulai_tugas" id="tgl_mulai_tugas">
+                                        <input type="date" class="form-control" name="tgl_mulai_tugas" id="tgl_mulai_tugas" required>
                                     </div>
                                     <div class="mb-3">
                                         <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="masukan email">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="masukan email" required>
                                     </div>
                                     <div class="mb-3">
                                         <button type="submit" class="btn btn-primary w-100">Tambah Data Pegawai</button>

@@ -3,7 +3,7 @@
 @section('container')
     <div class="row">
         <div class="col-lg-12">
-            <div class="header text-center"><h3>Halaman Gaji</h3></div>
+            <div class="header text-center"><h4>Daftar Laporan Gaji</h4></div>
               <a href="/tambahGaji" class="btn btn-sm btn-primary mb-3">+ Tambah Gaji</a>
               @if(session('success'))
                 <div class="alert alert-success" role="alert">
@@ -13,39 +13,46 @@
               <div class="table-responsive">
               <table class="table">
                 <thead class="bg-primary text-white">
-                    <tr>
-                    <th scope="col">No</th>
-                    <th scope="col">Nama</th>
-                    <th scope="col">NIP</th>
-                    <th scope="col">Persen</th>
-                    <th scope="col">Gaji Dasar</th>
-                    <th scope="col">Tunjangan Makan</th>
-                    <th scope="col">Tunjangan Transportasi</th>
-                    <th scope="col">Tunjangan Kesehatan</th>
-                    <th scope="col">Total Tunjangan</th>
-                    <th scope="col">Gaji Bruto</th>
-                    <th scope="col">Pajak</th>
-                    <th scope="col">Gaji Bersih</th>
-                    <th scope="col">Golongan</th>
-                    <th scope="col">Besaran Tunjangan</th>
-                    <th scope="col">Aksi</th>
+                    <tr style="font-size: 13px">
+                      <th>No</th>
+                      <th>Nama</th>
+                      <th>NIP</th>
+                      <th>Persen</th>
+                      <th>Gaji Dasar</th>
+                      <th>Tunjangan Makan</th>
+                      <th>Tunjangan Transportasi</th>
+                      <th>Tunjangan Kesehatan</th>
+                      <th>Total Tunjangan</th>
+                      <th>Gaji Bruto</th>
+                      <th>Pajak</th>
+                      <th>Gaji Bersih</th>
+                      <th>Golongan</th>
+                      <th>Besaran Tunjangan</th>
+                      <th>Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {{-- @foreach ($collection as $row)
                     <tr>
-                      <th scope="row">{{ $loop->iteration }}</th>
-                      <td>{{ $row->nama; }}</td>
-                      <td>{{ $row->nip; }}</td>
-                      <td>{{ $row->jabatan; }}</td>
-                      <td>{{ $row->email; }}</td>
-                      <td>{{ $row->tgl_mulai_tugas; }}</td>
+                      {{-- <th scope="row">{{ $loop->iteration }}</th> --}}
+                      <td>1</td>
+                      <td>Jeck Anderson</td>
+                      <td>12345678</td>
+                      <td>80%</td>
+                      <td>2.000.000</td>
+                      <td>500.000</td>
+                      <td>500.000</td>
+                      <td>1.000.000</td>
+                      <td>2.000.000</td>
+                      <td>50.000</td>
+                      <td>4.000.000</td>
+                      <td>500.0000</td>
+                      <td>Golongan 2</td>
+                      <td>500.0000</td>
                       <td>
-                          <a href="" class="badge text-bg-warning text-white">Update</a>
-                          <a href="" class="badge text-bg-danger">Delete</a>
+                          <a href="#" class="badge text-bg-warning text-white">Update</a>
+                          <a href="#" class="badge text-bg-danger">Delete</a>
                       </td>
                     </tr>
-                  @endforeach --}}
                 </tbody>
             
                 </table>

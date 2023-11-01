@@ -40,7 +40,11 @@
                         <td>{{ $row->keterangan; }}</td>
                         <td>
                             <a href="" class="badge text-bg-warning text-white">Update</a>
-                            <a href="" class="badge text-bg-danger">Delete</a>
+                            <form action="/masterTabel/{{ $row->id }}" method="post" class="d-inline">
+                              @method('delete')
+                              @csrf
+                              <button class="badge text-bg-danger border-0" onclick="confirm('yakin?')">Delete</button>
+                            </form>
                         </td>
                       </tr>
                     @endforeach

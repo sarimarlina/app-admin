@@ -83,9 +83,10 @@ class MasterTabelController extends Controller
      * @param  \App\Models\MasterTabel  $masterTabel
      * @return \Illuminate\Http\Response
      */
-    public function destroy(MasterTabel $masterTabel)
+    public function destroy(Request $request)
     {
-        //
+        Waktu_kerja::destroy($request->id);
+        return redirect('/masterTabel')->with('success', 'Data Waktu Kerja Berhasil di Hapus');
     }
 
     public function tambahWaktuKerja()

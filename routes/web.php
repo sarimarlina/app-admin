@@ -37,10 +37,12 @@ Route::resource('/masterTabel', MasterTabelController::class);
 Route::get('/statusAbsen', [MasterTabelController::class, 'statusAbsen']);
 Route::get('/tambahWaktuKerja', [MasterTabelController::class, 'tambahWaktuKerja']);
 Route::post('/insertWaktuKerja', [MasterTabelController::class, 'insertWaktuKerja']);
+// Route::delete('/delete/{id}', [MasterTabelController::class, 'destroy']);
 
 Route::get('/masterPegawai', [MasterPegawaiController::class, 'index']);
 Route::get('/tambahPegawai', [MasterPegawaiController::class, 'create']);
 Route::post('/storePegawai', [MasterPegawaiController::class, 'store']);
+Route::delete('/deletepegawai/{id}', [MasterPegawaiController::class, 'destroy']);
 
 Route::get('/laporangaji', [GajiController::class, 'index']);
 Route::get('/tambahGaji', [GajiController::class, 'create']);
